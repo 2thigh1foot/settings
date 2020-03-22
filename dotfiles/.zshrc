@@ -9,9 +9,9 @@ export ZSH="/Users/admin/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="gnzh"
 source ~/.nvm/nvm.sh
-nvm use stable
+#nvm use stable
 lolcat ~/.logo
 HOST_NAME=minima
 
@@ -107,25 +107,43 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
+alias uk="umount ~/knuth"
+alias uw="umount ~/wilkes"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# -------
+# Aliases
+# -------
 alias vim="/usr/local/Cellar/vim/8.1.1000/bin/vim"
 alias python="python3"
 alias pip="pip3"
-alias uk="umount ~/knuth"
-alias uw="umount ~/wilkes"
-alias g++="g++ -std=c++2a"
 alias ipython="python -m IPython"
+alias g++="g++ -std=c++2a"
+alias c='code -n .'
+alias ns='npm start'
+alias start='npm start'
+alias nr='npm run'
+alias run='npm run'
+alias nis='npm i -S'
+alias l='ls'
+alias ll='ls -al'
+alias o='open .'
+
+# -----------
+# Git Aliases
+# -----------
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add -A'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gd='git diff'
+alias gi='git init'
+alias gl='git log'
+alias gp='git pull'
+alias gpsh='git push'
+alias gss='git status -s'
 
 export PATH=/usr/local/mysql/bin:$PATH
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 # added by Anaconda3 2019.07 installer
 # >>> conda init >>>
