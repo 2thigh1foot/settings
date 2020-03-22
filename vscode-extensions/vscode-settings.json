@@ -23,8 +23,9 @@
     },
     "editor.tokenColorCustomizations": {
         "comments": "#00fc54",
-        "variables": "#00f87c",
+        "variables": "#ff60f7",
         "strings": "#00fc0d",
-        "numbers": "#00ccff"
+        "numbers": "#00ccff",
+        "functions": "#00fc0d"
     }
 }
