@@ -1,3 +1,19 @@
+# VS Code Settings
+
+## Font
+
+* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+
+## Extensions
+
+### Themes/Color
+
+* [Theme - Seti-Monokai](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
+    * I edited the seti monokai file to change keyword color as red is hard on my eyes. Changed color to #25DEFF
+* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+## Settings
+```json
 {
     "window.zoomLevel": 0,
     "latex-workshop.latex.autoClean.run": "onBuilt",
@@ -25,6 +41,7 @@
         "comments": "#00fc54",
         "variables": "#00f87c",
         "strings": "#00fc0d",
-        "numbers": "#00ccff"
-    }
+        "numbers": "#00ccff",
+    },
 }
+```
