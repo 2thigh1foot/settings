@@ -1,0 +1,31 @@
+{
+    "window.zoomLevel": 0,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Anonymous Pro",
+    "editor.fontWeight": "bold",
+    "workbench.colorTheme": "Seti Monokai",
+    "workbench.preferredDarkColorTheme": "Seti Monokai",
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "terminal.integrated.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#ffffff",
+        "editor.lineHighlightBackground": "#201a1a"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#00fc54",
+        "variables": "#00f87c",
+        "strings": "#00fc0d",
+        "numbers": "#00ccff"
+        //"keywords": "#25deff",
+    }
+}
